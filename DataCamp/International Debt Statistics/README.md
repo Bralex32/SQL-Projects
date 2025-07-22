@@ -38,3 +38,15 @@ FROM public.international_debt;
 1. Debt data varies greatly across developing countries.
 2. China holds the highest total debt in this dataset.
 3. Timor-Leste has the lowest principal repayment amount recorded.
+
+---
+
+## Insights gained
+
+### **1. The dataset covers 124 developing countries.
+
+China has the largest total debt, exceeding $285 billion USD.
+
+Timor-Leste records the lowest principal repayment at $825,000 USD.
+
+Debt obligations differ significantly across countries, highlighting diverse economic conditions and repayment capacities.
