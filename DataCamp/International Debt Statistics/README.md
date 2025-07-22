@@ -33,3 +33,8 @@ The aim of this project is to analyze the debt amounts owed by developing countr
 ```sql
 SELECT COUNT(DISTINCT country_name) AS total_distinct_countries
 FROM public.international_debt;
+
+## Insights Gained
+1. Debt data varies greatly across developing countries.
+2. China holds the highest total debt in this dataset.
+3. Timor-Leste has the lowest principal repayment amount recorded.
