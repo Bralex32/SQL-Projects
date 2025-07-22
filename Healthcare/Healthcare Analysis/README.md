@@ -1,65 +1,65 @@
 # Healthcare Data Analysis
 
-Este proyecto analiza un dataset ficticio de **atención médica** utilizando **SQL**. El objetivo es responder preguntas clave sobre pacientes, condiciones médicas, proveedores de seguros, costos de facturación y tendencias de hospitalización.
+This project explores a **healthcare dataset** using **SQL**. The goal is to answer key questions about patients, medical conditions, insurance providers, billing costs, and hospitalization trends.
 
 ---
 
 ## Dataset
-- **Archivo:** `healthcare_dataset.csv`
-- **Filas:** 55,500+
-- **Columnas:** 15  
-  - Nombre, Edad, Género, Tipo de Sangre, Condición Médica, Fecha de Admisión, Doctor, Hospital, Proveedor de Seguros, Monto Facturado, Número de Habitación, Tipo de Admisión, Fecha de Alta, Medicación, Resultados de Pruebas.
+- **File:** `healthcare_dataset.csv`
+- **Rows:** 55,500+
+- **Columns:** 15  
+  - Name, Age, Gender, Blood Type, Medical Condition, Date of Admission, Doctor, Hospital, Insurance Provider, Billing Amount, Room Number, Admission Type, Discharge Date, Medication, Test Results.
 
 ---
 
-## Consultas Realizadas
+## Queries Performed
 
-1. **Top 5 proveedores de seguros por número de pacientes**
-2. **Monto promedio de facturación por cliente**
-3. **Condiciones médicas más comunes (Top 10)**
-4. **Top 5 pacientes con mayor monto facturado**
-5. **Número promedio de admisiones por tipo de admisión**
-6. **Pacientes atendidos en un hospital específico**
-7. **Monto promedio de facturación por condición médica**
-8. **Identificación de claves primarias y foráneas en el dataset**
-9. **Proveedor de seguros con mayor facturación promedio y condiciones médicas más comunes**
-10. **Descripción de columnas y tipos de datos**
-11. **Tipo de sangre más común entre pacientes con diabetes**
-12. **Hospital que más trabaja con el proveedor de seguros Cigna**
-13. **Medicamento con mayor volumen de ventas en 2024**
-
----
-
-## Tecnologías utilizadas
-- **SQL** para consultas y análisis.
-- **PostgreSQL** como motor de base de datos.
-- **CSV Dataset** como fuente de datos.
+1. **Top 5 insurance providers by patient count**
+2. **Average billing amount per customer**
+3. **Most common medical conditions (Top 10)**
+4. **Top 5 patients with the highest billing amounts**
+5. **Average number of admissions by admission type**
+6. **Patients admitted to a specific hospital**
+7. **Average billing amount by medical condition**
+8. **Identifying primary and foreign keys in the dataset**
+9. **Insurance provider with the highest average billing and its most common conditions**
+10. **Column names and data types**
+11. **Blood type most commonly associated with diabetes**
+12. **Hospital that most frequently works with insurance provider Cigna**
+13. **Medication with the highest sales volume in 2024**
 
 ---
 
-## Resultados Clave
-- **Cigna** es el proveedor de seguros con mayor número de pacientes.
-- **Arthritis, Diabetes e Hypertension** son las condiciones médicas más comunes.
-- El medicamento con mayor volumen de ventas en 2024 fue **Aspirin**.
-- El monto promedio de facturación varía significativamente según la condición médica y el proveedor de seguros.
+## Technologies Used
+- **SQL** for queries and data analysis.
+- **PostgreSQL** as the database engine.
+- **CSV dataset** as the data source.
 
 ---
 
-## Cómo usar este proyecto
-1. Clona este repositorio.
-2. Descarga `healthcare_dataset.csv`.
-3. Ejecuta las consultas en tu motor SQL preferido (PostgreSQL recomendado).
-4. Explora y adapta las queries para otros análisis.
+## Key Insights
+- **Cigna** has the highest number of patients among insurance providers.
+- **Arthritis, Diabetes, and Hypertension** are the most common medical conditions.
+- **Aspirin** had the highest sales volume in 2024.
+- Average billing amounts vary significantly by medical condition and insurance provider.
 
 ---
 
-## Aprendizajes
-- Uso de funciones agregadas (`COUNT`, `AVG`, `SUM`, `ROUND`).
-- Ordenamiento y filtrado de datos con `ORDER BY`, `WHERE` y `LIMIT`.
-- Creación de **CTEs (Common Table Expressions)**.
-- Interpretación de datasets grandes y respuesta a preguntas de negocio.
+## How to Use This Project
+1. Clone this repository.
+2. Download `healthcare_dataset.csv`.
+3. Run the queries in your preferred SQL engine (PostgreSQL recommended).
+4. Explore and adapt queries for additional analysis.
 
 ---
 
-## Autor
-Proyecto desarrollado como parte de prácticas en **análisis de datos con SQL**.
+## Lessons Learned
+- Use of aggregate functions (`COUNT`, `AVG`, `SUM`, `ROUND`).
+- Data sorting and filtering with `ORDER BY`, `WHERE`, and `LIMIT`.
+- Creation of **CTEs (Common Table Expressions)**.
+- Handling large datasets and deriving business insights.
+
+---
+
+## Author
+Project developed as part of **SQL data analysis practice**.
