@@ -55,3 +55,16 @@ WHERE inter_dom = 'Inter'
 GROUP BY stay
 ORDER BY stay DESC;
 
+## Insights Gained
+International students show higher depression scores on average.
+
+Lower social connectedness and higher acculturative stress are strongly associated with depression.
+
+Students with shorter stays often report higher stress levels, suggesting that adaptation over time may reduce stress.
+
+## Lessons Learned
+Application of SQL aggregation functions (AVG, COUNT, ROUND).
+
+Use of grouping by categorical variables (e.g., stay, inter_dom).
+
+Understanding the relationship between cultural adaptation and mental health.
